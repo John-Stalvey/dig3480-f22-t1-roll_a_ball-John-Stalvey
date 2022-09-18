@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PickUp
   - PickUp (Bad)
+  - PickUp Bad
   layers:
   - Default
   - TransparentFX
