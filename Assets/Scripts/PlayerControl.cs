@@ -61,6 +61,7 @@ public class PlayerControl : MonoBehaviour
         if(other.gameObject.CompareTag("PickUp Bad"))
         {
             other.gameObject.SetActive(false);
+            lives = lives -1;
         }
 
             
