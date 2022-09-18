@@ -62,6 +62,7 @@ public class PlayerControl : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if(other.gameObject.CompareTag("PickUp Bad"))
         other.gameObject.SetActive(false);
     }
 }
