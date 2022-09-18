@@ -70,6 +70,8 @@ public class PlayerControl : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             lives = lives - 1;
+
+            SetLivesText();
         }
 
             
