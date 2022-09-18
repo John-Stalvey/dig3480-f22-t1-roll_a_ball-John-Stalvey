@@ -44,6 +44,11 @@ public class PlayerControl : MonoBehaviour
         }
     }
 
+    void SetLivesText()
+    {
+        livesText.text = "Lives: " + lives.ToString();
+    }
+
     void FixedUpdate()
     {
         Vector3 movement = new Vector3(movementX, 0.0f, movementY);
