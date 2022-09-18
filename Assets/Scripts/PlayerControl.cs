@@ -60,9 +60,10 @@ public class PlayerControl : MonoBehaviour
         if(other.gameObject.CompareTag("PickUp Bad"))
         {
             other.gameObject.SetActive(false);
-    }
+        }
 
-    private void OnTriggerEnter(Collider other)
+            
+    }
     
         
     }
