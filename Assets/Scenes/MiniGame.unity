@@ -914,6 +914,7 @@ MonoBehaviour:
   countText: {fileID: 1087308588}
   livesText: {fileID: 1620491960}
   winTextObject: {fileID: 1708065043}
+  loseTextObject: {fileID: 1911709628}
 --- !u!1001 &804651847
 PrefabInstance:
   m_ObjectHideFlags: 0
