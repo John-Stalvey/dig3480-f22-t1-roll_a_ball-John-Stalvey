@@ -80,7 +80,7 @@ public class PlayerControl : MonoBehaviour
         }
         if(loseTextObject.SetActive(true));
         {
-            
+            speed = 0;
         }
             
     }
