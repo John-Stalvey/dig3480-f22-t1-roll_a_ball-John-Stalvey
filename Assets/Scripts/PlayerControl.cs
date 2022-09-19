@@ -78,7 +78,11 @@ public class PlayerControl : MonoBehaviour
 
             SetCountText();
         }
-        if(loseTextObject.SetActive(true));
+        if(lives == 0)
+        {
+            loseTextObject.SetActive(true);
+            Destroy (gameObject);
+        }
         
             
     }
