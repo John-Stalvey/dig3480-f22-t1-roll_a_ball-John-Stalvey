@@ -43,7 +43,7 @@ public class PlayerControl : MonoBehaviour
     void SetCountText()
     {
         countText.text = "Count: " + count.ToString();
-        if(count == 6) 
+        if(count == 12) 
         {
             transform.position = new Vector3(56f, 0.05f, 0.25f);
             
