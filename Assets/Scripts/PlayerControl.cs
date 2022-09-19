@@ -18,7 +18,7 @@ public class PlayerControl : MonoBehaviour
     private float movementX;
     private float movementY;
 
-    // Start is called before the first frame update yooooo
+    // Start is called before the first frame update 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
