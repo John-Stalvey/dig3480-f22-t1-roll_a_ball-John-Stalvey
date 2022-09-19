@@ -46,6 +46,10 @@ public class PlayerControl : MonoBehaviour
         if(count == 6) 
         {
             transform.position = new Vector3(56f, 0.05f, 0.25f);
+            
+        }
+        if(count >=20)
+        {
             winTextObject.SetActive(true);
         }
         
