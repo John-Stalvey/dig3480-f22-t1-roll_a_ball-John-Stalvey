@@ -27,6 +27,7 @@ public class PlayerControl : MonoBehaviour
 
         SetCountText();
         winTextObject.SetActive(false);
+        loseTextObject.SetActive(false);
 
         
     }
