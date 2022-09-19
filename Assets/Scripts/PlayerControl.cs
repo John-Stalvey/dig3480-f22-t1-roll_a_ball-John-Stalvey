@@ -78,7 +78,10 @@ public class PlayerControl : MonoBehaviour
 
             SetCountText();
         }
-        if()
+        if(loseTextObject.SetActive(true));
+        {
+            
+        }
             
     }
     
