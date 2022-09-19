@@ -45,7 +45,7 @@ public class PlayerControl : MonoBehaviour
         countText.text = "Count: " + count.ToString();
         if(count == 6) 
         {
-            transform.position = new Vector3(56, 0.05, 0.25);
+            transform.position = new Vector3(56f, 0.05f, 0.25f);
             winTextObject.SetActive(true);
         }
         
